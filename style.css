@@ -106,3 +106,51 @@ footer{background:#073d31;color:rgba(255,255,255,.78);padding:60px 0 22px}footer
 @media (max-width:480px){
   .routine-grid-five{grid-template-columns:1fr;}
 }
+
+/* =========================================
+   Visual Refinement – Batch 1
+   ========================================= */
+
+/* Five daily habits */
+.routine-grid-five .routine{
+    padding:28px 18px;
+    border-radius:18px;
+    transition:transform .25s ease, box-shadow .25s ease;
+}
+
+.routine-grid-five .routine:hover{
+    transform:translateY(-6px);
+    box-shadow:0 16px 32px rgba(0,0,0,.08);
+}
+
+.routine-grid-five .icon{
+    margin-bottom:14px;
+}
+
+.routine-grid-five h3{
+    line-height:1.25;
+    margin-bottom:12px;
+}
+
+.routine-grid-five p{
+    line-height:1.7;
+}
+
+/* Section heading refinement */
+.section-head{
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Better visual spacing */
+.section{
+    overflow:hidden;
+}
+
+/* Mobile refinement */
+@media (max-width:720px){
+    .routine-grid-five .routine{
+        padding:24px 18px;
+    }
+}
